@@ -122,6 +122,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Completed"/>
+                                <connections>
+                                    <action selector="completeTapped:" destination="RrK-1h-AmA" eventType="touchUpInside" id="cZj-bq-IRb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ULY-qh-zvp"/>
@@ -129,7 +132,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="GHp-an-cY3"/>
                     <connections>
-                        <outlet property="completeTapped" destination="7gV-pt-VQo" id="Urs-9l-bac"/>
+                        <outlet property="completeTapped" destination="7gV-pt-VQo" id="zAV-UI-39e"/>
                         <outlet property="titleLabel" destination="ypj-Ct-bnN" id="ALU-VN-RaA"/>
                     </connections>
                 </viewController>
